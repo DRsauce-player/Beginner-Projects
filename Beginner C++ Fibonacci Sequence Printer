@@ -5,13 +5,10 @@ using namespace std;
 int main()
 {
     int length, prev = 0, curr = 1, temp;
-    char symbol;
 
     cout << "Length: ";
     cin >> length;
-    cout << "Symbol: ";
-    cin >> symbol;
-    cout << "Fibonacci Sequence up to " << length + 2 << " numbers.\n";
+    cout << "Fibonacci Sequence up to " << length << " numbers.\n";
 
     for (int i = 0; i < length + 2; i++)
     {
